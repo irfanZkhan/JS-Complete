@@ -20,13 +20,24 @@ function AddtwoNumbers(number1, number2){
 
    
     let result = number1+number2
-    console.log("irfan")
+   // console.log("irfan")
     return  result 
 
 }
     
 // on this stage 12, 24 are the argument
 const result =  AddtwoNumbers(12,24)
-console.log("Result :",result)
+// console.log("Result :",result)
 
+
+
+
+
+function UserLoginMessage(username){
+
+    return `${username} just loggin Right Now `
+}
+
+
+console.log(UserLoginMessage("irfan"))
 
