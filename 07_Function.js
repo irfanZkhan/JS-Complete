@@ -34,10 +34,20 @@ const result =  AddtwoNumbers(12,24)
 
 
 function UserLoginMessage(username){
+    if(username===undefined){
 
-    return `${username} just loggin Right Now `
+        console.log("please pass a Arguments")
+        return
+
+
+    }
+    else{
+            return `${username} just loggin Right Now `
+    }
+
+
 }
 
 
-console.log(UserLoginMessage("irfan"))
+console.log(UserLoginMessage())
 
