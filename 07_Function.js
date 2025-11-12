@@ -33,21 +33,32 @@ const result =  AddtwoNumbers(12,24)
 
 
 
-function UserLoginMessage(username = "Demii values "){
-    if(username===undefined){
+// function UserLoginMessage(username = "Demii values "){
+//     if(username===undefined){
 
-        console.log("please pass a Arguments")
-        return
+//         console.log("please pass a Arguments")
+//         return
 
 
-    }
-    else{
-            return `${username} just loggin Right Now `
-    }
+//     }
+//     else{
+//             return `${username} just loggin Right Now `
+//     }
 
+
+// }
+
+
+// console.log(UserLoginMessage())
+
+
+
+
+
+function CalculateCardPrice(...num){
+    return num
 
 }
 
-
-console.log(UserLoginMessage())
+console.log(CalculateCardPrice(10, 20 ,30))
 
