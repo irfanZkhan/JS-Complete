@@ -33,7 +33,7 @@ const result =  AddtwoNumbers(12,24)
 
 
 
-function UserLoginMessage(username){
+function UserLoginMessage(username = "irfan "){
     if(username===undefined){
 
         console.log("please pass a Arguments")
