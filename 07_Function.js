@@ -1,0 +1,32 @@
+function sayMyName(){
+
+    console.log("irfan");
+       console.log("Haider");
+          console.log("baloch")
+}
+
+
+//sayMyName()
+
+//on this stage number1 and number2 is a parameter
+// function AddtwoNumbers(number1, number2){
+
+   
+//     console.log(number1 + number2)
+
+// }
+
+function AddtwoNumbers(number1, number2){
+
+   
+    let result = number1+number2
+    console.log("irfan")
+    return  result 
+
+}
+    
+// on this stage 12, 24 are the argument
+const result =  AddtwoNumbers(12,24)
+console.log("Result :",result)
+
+
