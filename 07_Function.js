@@ -55,10 +55,13 @@ const result =  AddtwoNumbers(12,24)
 
 
 
-function CalculateCardPrice(...num){
+function CalculateCardPrice(value1, value2, ...num){
     return num
 
 }
 
-console.log(CalculateCardPrice(10, 20 ,30))
+// console.log("value1 = "  ,value1)
+// console.log("value2 = " ,value2)
+console.log(CalculateCardPrice(10, 20 ,30,40,60))
+
 
