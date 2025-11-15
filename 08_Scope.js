@@ -46,7 +46,29 @@ if(true){
       const web="youtube.com"
       console.log(web+userName)
    }
-   console.log(web)
+   //console.log(web)
 
 }
-console.log(userName)
+// console.log(userName)
+
+
+
+//********************     Very interesting    **************************  */
+console.log("AddOne :"+AddOne(5))
+function AddOne(number){
+   return number +1
+}
+
+
+
+//++++++++++++++++++++++++++          this is hoosting concept      +++++++++++++++++++++++++++++++++++++++++++++
+
+const AddTwo= function( number){
+
+   return number +2
+}
+//if you put this code firtly to that function it will make a error 
+//NOT accessible 
+console.log("Addtwo :"+ AddTwo(5))
+
+
