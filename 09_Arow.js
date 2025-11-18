@@ -10,7 +10,21 @@
 
     }
  }
- user.WelcomMessage()
- console.log(this)
+//  user.WelcomMessage()
+//  console.log(this)
 
 
+
+
+
+function chai(){
+    userName= "irfan khan balooch"
+    console.log(this.userName)
+}
+
+chai()
+
+
+
+
+ 
