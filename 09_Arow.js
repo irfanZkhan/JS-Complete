@@ -17,14 +17,22 @@
 
 
 
-function chai(){
-    userName= "irfan khan balooch"
-    console.log(this.userName)
+// function chai(){
+//     userName= "irfan khan balooch"
+//     console.log(this.userName)
+// }
+
+// chai()
+
+
+
+
+
+const chai=() =>{
+    console.log(this)
+
+
 }
-
 chai()
-
-
-
 
  
