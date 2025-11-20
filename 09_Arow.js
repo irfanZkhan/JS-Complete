@@ -28,11 +28,18 @@
 
 
 
-const chai=() =>{
-    console.log(this)
+// const chai=() =>{
+//     console.log(this)
 
 
+// }
+// chai()
+
+ //=============   Arrow function           =============================
+
+const AddTwo=(number1,number2) => {
+    return number1*number2
 }
-chai()
 
- 
+
+console.log (AddTwo(7,7))
